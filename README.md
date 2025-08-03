@@ -18,3 +18,8 @@ _Built by [app.build](https://www.app.build)_
 - Connect your GitHub account
 - Grant access to your repo (this repo)
 - Setup environment variables (like your database URL)
+
+
+```
+npm run dev
+```
