@@ -48,12 +48,12 @@ export default function Welcome() {
                 {/* Resume Content */}
                 <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
                     {/* Header Section */}
-                    <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8">
+                    <div className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-8">
                         <div className="text-center">
                             <div className="w-24 h-24 bg-white rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">
                                 👨‍🎓
                             </div>
-                            <h1 className="text-3xl font-bold mb-2">Alex Johnson</h1>
+                            <h1 className="text-3xl font-bold mb-2">Hugo Berneis</h1>
                             <p className="text-xl mb-4">High School Student & Aspiring Developer</p>
                             <div className="flex flex-wrap justify-center gap-4 text-sm">
                                 <span className="flex items-center gap-1">
