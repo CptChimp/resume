@@ -66,7 +66,7 @@ export default function Welcome() {
                                     📍 Portland, OR
                                 </span>
                                 <span className="flex items-center gap-1">
-                                    <a href="https://github.com/kmeyer7560/CardcertoInCMajor" className="underline" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/hugoberneis/" className="underline" target="_blank" rel="noopener noreferrer">
                                 💼 linkedin.com/in/hugoberneis
                                 </a>
                                 </span>
