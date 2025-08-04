@@ -66,7 +66,9 @@ export default function Welcome() {
                                     📍 Portland, OR
                                 </span>
                                 <span className="flex items-center gap-1">
-                                    💼 linkedin.com/in/hugoberneis
+                                    <a href="https://github.com/kmeyer7560/CardcertoInCMajor" className="underline" target="_blank" rel="noopener noreferrer">
+                                💼 linkedin.com/in/hugoberneis
+                                </a>
                                 </span>
                             </div>
                         </div>
@@ -276,6 +278,9 @@ export default function Welcome() {
                                     <li>Submitted work daily and collaborated on a git repo</li>
                                     <li>Six months long</li>
                                 </ul>
+                                <a href="https://github.com/kmeyer7560/CardcertoInCMajor" className="underline text-blue-400" target="_blank" rel="noopener noreferrer">
+                                Github Link
+                                </a>
                             </div>
                             <div className=" bg-gray-50 dark:bg-gray-700 rounded-lg p-6 mt-4">
                                 <div className="flex justify-between items-start mb-2">
@@ -290,6 +295,9 @@ export default function Welcome() {
                                     <li>Machine learning with library</li>
                                     <li>Python</li>
                                 </ul>
+                                <a href="https://github.com/hberneis/Trash-Collector" className="underline text-blue-400" target="_blank" rel="noopener noreferrer">
+                                Github Link
+                                </a>
                             </div>
                         </section>
 
@@ -342,13 +350,14 @@ export default function Welcome() {
                             >
                             📧 Contact Me
                             </a>
-                            <a
+                            {/*<a
                                 href="/resume.test.pdf"
                                 download
                                 className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors font-semibold flex items-center"
                             >
                             📄 Download PDF
                         </a>
+                        */}
                         </div>
 
                         </div>
