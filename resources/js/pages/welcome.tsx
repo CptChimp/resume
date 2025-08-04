@@ -50,7 +50,7 @@ export default function Welcome() {
                             <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                                 Motivated college student with a passion for tech and problem solving.
                                 Currently pursuing computer science while making personal projects.
-                                Eager to apply my skills and creativity in a proffesional environment.
+                                Eager to apply my skills and creativity in a professional environment.
                             </p>
                         </section>
 
@@ -157,7 +157,7 @@ export default function Welcome() {
                                     </div>
                                     <p className="text-gray-600 dark:text-gray-400 mb-3">
                                     Designed and developed a responsive personal website showcasing my projects and skills.
-                                    Built with HTML, CSS, TypeScript, and JavaScripts.
+                                    Built with HTML, CSS, TypeScript, and JavaScript.
                                     </p>
                                     <div className="flex gap-2 mb-4">
                                         <span className="px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full text-sm">HTML/CSS</span>
