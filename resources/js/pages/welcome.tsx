@@ -11,39 +11,6 @@ export default function Welcome() {
                 <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
             </Head>
             <div className="min-h-screen bg-gray-50 py-8 px-4 dark:bg-gray-900">
-                {/* Navigation */}
-                <header className="mb-8 w-full max-w-4xl mx-auto">
-                    <nav className="flex items-center justify-between">
-                        <div className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                            My Digital Resume
-                        </div>
-                        <div className="flex gap-4">
-                            {auth.user ? (
-                                <Link
-                                    href={route('dashboard')}
-                                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                                >
-                                    Dashboard
-                                </Link>
-                            ) : (
-                                <> {/*
-                                    <Link
-                                        href={route('login')}
-                                        className="px-4 py-2 text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100"
-                                    >
-                                        Log in
-                                    </Link>
-                                    <Link
-                                        href={route('register')}
-                                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                                    >
-                                        Register
-                                    </Link> */}
-                                </>
-                            )}
-                        </div>
-                    </nav>
-                </header>
 
                 {/* Resume Content */}
                 <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden">
@@ -51,16 +18,16 @@ export default function Welcome() {
                     <div className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-8">
                         <div className="text-center">
                             <div className="w-24 h-24 bg-white rounded-full mx-auto mb-4 flex items-center justify-center text-4xl">
-                                
+                                <img src="/hugo.png" alt="Hugo Berneis" className="w-full h-full rounded-full object-cover" />
                             </div>
                             <h1 className="text-3xl font-bold mb-2">Hugo Berneis</h1>
                             <p className="text-xl mb-4">Aspiring Computer Scientist</p>
                             <div className="flex flex-wrap justify-center gap-4 text-sm">
                                 <span className="flex items-center gap-1">
-                                    📧 hugo@berneis.com
+                                    📧 <a href="mailto:hugo@berneis.com">hugo@berneis.com</a>
                                 </span>
                                 <span className="flex items-center gap-1">
-                                    📱 (503) 911-2466
+                                    📱 <a href="tel:+15039112466">(503) 911-2466</a>
                                 </span>
                                 <span className="flex items-center gap-1">
                                     📍 Portland, OR
@@ -189,7 +156,7 @@ export default function Welcome() {
                                         <span className="text-sm text-gray-500 dark:text-gray-400">2025</span>
                                     </div>
                                     <p className="text-gray-600 dark:text-gray-400 mb-3">
-                                    Designed and developed a responsive personal website showcasing my projects and skills. 
+                                    Designed and developed a responsive personal website showcasing my projects and skills.
                                     Built with HTML, CSS, TypeScript, and JavaScripts.
                                     </p>
                                     <div className="flex gap-2 mb-4">
@@ -198,7 +165,7 @@ export default function Welcome() {
                                         <span className="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm">Servers/Domains</span>
                                     </div>
                                 <a
-                                    href="http://resume.test"
+                                    href="https://github.com/hberneis/resume"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
@@ -222,7 +189,7 @@ export default function Welcome() {
                                         <span className="px-3 py-1 bg-gray-100 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-full text-sm">Cloudflare</span>
                                     </div>
                                     <a
-                                    href="https://piecebypiece.pages.dev" 
+                                    href="https://piecebypiece.pages.dev"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
@@ -240,11 +207,11 @@ export default function Welcome() {
                                     <p className="text-gray-600 dark:text-gray-400 mb-3">
                                         Developed a 2D game for a two week highschool game jam. The genre was "roles reversed".
                                         The idea being that instead of the common genre, tower defense, which has the player place defenses along a path to defend against enemies on the track,
-                                        the player is the enemy on the track and has to dodge the defensive units. 
+                                        the player is the enemy on the track and has to dodge the defensive units.
                                     </p>
                                     <div className="flex gap-2">
-                                        <span className="px-3 py-1 bg-red-800 dark:red-900 text-red-800 dark:text-red-200 rounded-full text-sm">Unity 2D</span>
-                                        <span className="px-3 py-1 bg-gray-800 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm">Itch.io</span>
+                                        <span className="px-3 py-1 bg-red-200 dark:bg-red-800 text-red-800 dark:text-red-200 rounded-full text-sm">Unity 2D</span>
+                                        <span className="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm">Itch.io</span>
                                         <span className="px-3 py-1 bg-cyan-100 dark:bg-cyan-600 text-gray-800 dark:text-gray-200 rounded-full text-sm">C#</span>
                                     </div>
                                     <a
@@ -279,7 +246,7 @@ export default function Welcome() {
                                     <li>Six months long</li>
                                 </ul>
                                 <a href="https://github.com/kmeyer7560/CardcertoInCMajor" className="underline text-blue-400" target="_blank" rel="noopener noreferrer">
-                                Github Link
+                                Github
                                 </a>
                             </div>
                             <div className=" bg-gray-50 dark:bg-gray-700 rounded-lg p-6 mt-4">
@@ -296,7 +263,7 @@ export default function Welcome() {
                                     <li>Python</li>
                                 </ul>
                                 <a href="https://github.com/hberneis/Trash-Collector" className="underline text-blue-400" target="_blank" rel="noopener noreferrer">
-                                Github Link
+                                Github
                                 </a>
                             </div>
                         </section>
@@ -366,10 +333,10 @@ export default function Welcome() {
 
                 {/* Footer */}
                 {/*<footer className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400">
-                    Built with ❤️ using Laravel & React • 
-                    <a 
-                        href="https://app.build" 
-                        target="_blank" 
+                    Built with ❤️ using Laravel & React •
+                    <a
+                        href="https://app.build"
+                        target="_blank"
                         className="font-medium text-blue-600 hover:underline dark:text-blue-400 ml-1"
                     >
                         Powered by app.build
